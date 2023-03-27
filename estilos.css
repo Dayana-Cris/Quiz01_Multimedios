@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+.header{
+    background-color: brown;
+    width: 100%;
+    float: left;
+    height: 50px;
+}
+
+.footer{
+    background-color: brown;
+    width: 100%;
+    float: left;
+    height: 40px;
+}
+
+.main{
+    background-color: rgba(184, 82, 82, 0.61);
+    width: 100%;
+    float: left;
+    height: 300px;
+}
+
+.menu{
+    background-color: rgb(131, 64, 64);
+    width: 25%;
+    float: left;
+}
+
+.dashboard{
+    background-color:blueviolet;
+    width: 50%;
+    float: left;
+}
+
+.rss{
+    background-color: aquamarine;
+    width: 25%;
+    float: left;
+}
+.general{
+    position: absolute;  
+    width: auto;
+}
