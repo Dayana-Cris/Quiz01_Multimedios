@@ -3,14 +3,14 @@
     text-align: center;
 }
 .header{
-    background-color: brown;
+    background-color: rgb(48, 12, 12);
     width: 100%;
     float: left;
     height: 50px;
 }
 
 .footer{
-    background-color: brown;
+    background-color: rgb(48, 12, 12);
     width: 100%;
     float: left;
     height: 40px;
@@ -24,23 +24,24 @@
 }
 
 .menu{
-    background-color: rgb(131, 64, 64);
+    background-color: rgb(71, 23, 23);
     width: 25%;
     float: left;
 }
 
 .dashboard{
-    background-color:blueviolet;
+    background-color:rgb(97, 64, 64);
     width: 50%;
     float: left;
 }
 
 .rss{
-    background-color: aquamarine;
+    background-color: rgb(71, 23, 23);
     width: 25%;
     float: left;
 }
 .general{
     position: absolute;  
     width: auto;
+    color: aliceblue;
 }
