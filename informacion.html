@@ -10,12 +10,11 @@
         h3{
             font-family: cursive;
             margin: 20px;
+            color: white; 
         }
-
         h4{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         } 
-
         .divPromo{
             width: 50%;
             float: left;
@@ -25,9 +24,67 @@
             background-color: white;
             padding: 10px;
             font-family: cursive;
-            font-size: 18px;
+            font-size: 18px;            
         }
-        
+        button:hover{
+            background-color: rgb(165, 112, 42);
+            color: white; 
+        }
+        .infoExtra{
+            width: 25%;
+            float: left;
+            padding-top: 50px;
+            padding: 20px;                       
+        }
+        .infoExtraDentro{
+            background-color: rgb(71, 23, 23);
+            padding: 15px;
+        }        
+        .infoExtraDentro2{
+            background-color: rgb(95, 51, 21);
+            margin-top: 40px;
+            padding: 15px;
+            margin-bottom: 40px;
+        }
+        .divRecetas{
+            width: 25%;
+            float: left;
+            padding-top: 40px;
+        }
+        .divRecetasDentro{
+            padding: 15px;
+            border-bottom: 1px solid white;
+        }
+        .contenedorVideo{
+            position:relative; 
+            width: 100%;
+            height: 0;
+            padding-bottom: 250px;
+        }
+        .video{
+            position:absolute; 
+            top:0;
+            left:0; 
+            width: 100%;
+            height: 100%;
+        }
+        .mainPromociones{
+            background-image: url("img/ImgPromociones/fondoPromociones1.jpg");
+            background-size: auto;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            height: auto;
+            min-height: auto;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .dashboardPromo{            
+            width: 50%;
+            float: left;            
+            background-color: rgba(128, 128, 128, 0.123);
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -40,27 +97,43 @@
                 <nav class="navbar">
                   <ul class="nav-links">
                     <li><a href="/index.html">Inicio</a></li>
-                    <li><a href="/informacion.html">Promociones</a></li>
+                    <li><a href="/acerca.html">Nosotros</a></li>
                     <li><a href="#">Contacto</a></li>
                   </ul>
                 </nav>
             </header>
         </div>
-
-        <!-- <div class="header">            
-            <h1>PROMOCIONES</h1>
-                       
-        </div> -->
     
-        <div class="main">
-            <div class="menu">
-                <ul>
-                    <li>Inicio</li>
-                    <li>Acerca de</li>
-                    <li>Información</li>
-                </ul>
+        <div class="main mainPromociones">
+            <div class="infoExtra">
+                <div class="infoExtraDentro">
+                    <h3>CAFETERÍA CIBERESPACIO</h3>
+                    <p>
+                        En nuestra cafetería, te brindamos una gran variedad de platillos que te harán disfrutar 
+                        y sonreír con cada probada. Aprovecha también de nuestras promociones y no te pierdas de
+                        nuestras nuevas recetas para compartir.   
+
+                    </p>
+                </div>
+                <div class="infoExtraDentro2">
+                    <p>
+                        En nuestras instalaciones, podrás disfrutar con toda tu familia, pero también, 
+                        podrás utilizar nuestros espacios de trabajo y estudio, donde te sentirás
+                        tranquilo y a gusto.
+                    </p>
+                </div> 
+                <div class="infoExtraDentro">
+                    <p>
+                        Es un placer para nosotros atenderles y darles el mejor de nuestros servicios, para
+                        que alcances el mejor grado de satisfacción posible. 
+                    </p>
+                </div>  
+                <div class="infoExtraDentro2" >
+                    <img src="img/ImgPromociones/cafeteria.jpg" alt="imagen de cafetería" width="100%">
+                </div> 
             </div>
-            <div class="dashboard">
+
+            <div class="dashboardPromo">
                 <h3>TENEMOS DISTINTAS PROMOCIONES PARA QUE ESCOJAS TU OPCIÓN PREFERIDA</h3>
 
                 <div class="divPromo">
@@ -68,7 +141,9 @@
                     <h4>
                         Promoción 1: Postre + 2 Capuchinos
                     </h4>
-                    <button>AGREGAR</button>
+                    <a href="https://www.google.com">
+                        <button>AGREGAR</button>
+                    </a>
                 </div>
 
                 <div class="divPromo">
@@ -76,7 +151,9 @@
                     <h4>
                         Promoción 2: Crepa + Capuchino
                     </h4>
-                    <button>AGREGAR</button>
+                    <a href="https://www.google.com">
+                        <button>AGREGAR</button>
+                    </a>
                 </div>
                 
                 <div class="divPromo">
@@ -84,7 +161,9 @@
                     <h4>
                         Promoción 3: Croissant + Café Moca
                     </h4>
-                    <button>AGREGAR</button>
+                    <a href="https://www.google.com">
+                        <button>AGREGAR</button>
+                    </a>
                 </div>
 
                 <div class="divPromo">
@@ -92,7 +171,9 @@
                     <h4>
                         Promoción 4: 10 postres pequeños
                     </h4>
-                    <button>AGREGAR</button>
+                    <a href="https://www.google.com">
+                        <button>AGREGAR</button>
+                    </a>
                 </div>
 
                 <div class="divPromo">
@@ -100,7 +181,9 @@
                     <h4>
                         Promoción 5: 2 Wafles + 2 Cafés 
                     </h4>
-                    <button>AGREGAR</button>
+                    <a href="https://www.google.com">
+                        <button>AGREGAR</button>
+                    </a>
                 </div>
 
                 <div class="divPromo">
@@ -108,15 +191,39 @@
                     <h4>
                         Promoción 6: 2 Sándwiches + Café
                     </h4>
-                    <button>AGREGAR</button>
+                    <a href="https://www.google.com">
+                        <button>AGREGAR</button>
+                    </a>
                 </div>
                 
             </div>
-            <div class="rss">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quaerat quam, obcaecati facere maxime vitae accusantium, tempore voluptatem modi laborum incidunt ex totam animi voluptatibus numquam dolore facilis asperiores temporibus.</p>
+
+            <div class="divRecetas">
+                <h3>RECETAS POSTRES</h3>
+                <hr>
+                <div class="divRecetasDentro">                    
+                    <h4>Receta de crepes dulces caseros</h4>
+                    <p>
+                        Descubre cómo preparar la receta básica de crepes caseros de forma fácil y rápida junto a nuestra gran chef y pastelera Noelia Ortiz.
+                    </p>   
+                    <div class="contenedorVideo">
+                        <iframe class="video" width="260" height="215" src="https://www.youtube.com/embed/LaHpfrlCEKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>                          
+                </div>
+                <div class="divRecetasDentro">                    
+                    <h4>Receta donas de azúcar caseras y esponjosas</h4>
+                    <p>
+                        Descubre cómo preparar la receta básica de donas de azúcar caseras y esponjosas de forma fácil y rápida junto a nuestra gran chef y pastelera Jennifer Salas.
+                    </p>  
+                    <div class="contenedorVideo">
+                        <iframe class="video" width="260" height="215" src="https://www.youtube.com/embed/2G4C1gqp8sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>                  
+                         
+                </div>
+                
             </div>
         </div>
-    
+<!-- ---------------------------------------------------------------------------------    -->
         <div class="footer">
             <div class="divFooter">
                 <h3>
