@@ -98,6 +98,42 @@ h1{
     float: left;
 }
 
+.mainLaCarta{
+    background-image: url("/img/imgLacarta/ImgFondo2.jpg");
+    background-size: auto;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    min-height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.divMenu1{
+    background-color: rgb(124, 87, 57);
+    padding: 10px;
+    margin: 20px;
+}
+
+.divMenu2{
+    background-color:rgb(165, 27, 50);
+    padding: 10px;
+    margin: 20px;
+}
+
+.divMenu3{
+    background-color:  rgb(50, 95, 56);
+    padding: 10px;
+    margin: 20px;
+}
+
+.divMenu4{
+    background-color: rgb(14, 50, 56);
+    padding: 10px;
+    margin: 20px;
+}
+
 .menu{
     /* background-color: rgb(71, 23, 23); */
     width: 25%;
@@ -110,6 +146,12 @@ h1{
     width: 50%;
     float: left;
     color: rgb(10, 2, 2)
+}
+
+.dashboardLaCarta{
+    width: 50%;
+    float: left;
+    
 }
 
 .rss{
@@ -127,4 +169,8 @@ h1{
 
 .imgIndex {
     width: 95%;
+  }
+
+  .imgLaCartaLeft{
+    margin-top: 30px;
   }
