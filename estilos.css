@@ -251,7 +251,104 @@ button:hover{
     background-color: rgba(128, 128, 128, 0.123);
     margin-top: 20px;
 }
+/*--------------------CSS Acerca de------------------------*/
+h2{
+    font-family: cursive;
+    margin: 20px;
+    color: white; 
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
 
+.contacto{
+    width: 25%;
+    float: left;
+    padding-top: 50px;
+    padding: 20px;                       
+}
+.contacto h2{
+    background-color:  rgb(71, 23, 23);
+}
+.contactoInfo{
+    padding: 15px;
+}        
+.contactoInfo1{
+    background-color: rgb(95, 51, 21);
+    margin-top: 40px;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+.contactoContenido p{
+    background-color: rgb(95, 51, 21);
+}
+.dashboardAcerca{            
+    width: 50%;
+    float: left;            
+    background-color: rgba(128, 128, 128, 0.123);
+    margin-top: 20px;
+}
+.dashboardAcerca p{
+    background-color: rgb(95, 51, 21);
+    font-weight: bold;
+}
+.dashboardAcerca h2{
+    background-color: rgb(71, 23, 23);
+}
+.divHistoria{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.divHistoria h3{
+    background-color: rgb(95, 51, 21);
+}
+.adicional{
+    width: 25%;
+    float: left;
+    padding-top: 50px;
+    padding: 20px;  
+}
+.divAdicionalInfo h2{
+    background-color: rgb(71, 23, 23);
+}
+.divAdicionalInfo{
+    padding: 15px;
+}
+.divAdicionalInfo p{
+    background-color: rgb(95, 51, 21);
+}
+.divAdicionalInfo1{
+    background-color: rgb(95, 51, 21);
+    margin-top: 40px;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+.divVideo{
+    position:relative; 
+    width: 100%;
+    height: 0;
+    padding-bottom: 250px;
+}
+.videoHistoria{
+    position:absolute; 
+    top:0;
+    left:0; 
+    width: 100%;
+    height: 100%;
+}
+.mainAcercaD{
+    background-image: url("/img/imgAcerca/fondoCafe.jpg");
+    background-size: 100%;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    min-height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .principal a {
 color: aliceblue;
 font-weight: bold;
